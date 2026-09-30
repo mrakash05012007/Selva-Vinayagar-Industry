@@ -1,16 +1,27 @@
-# React + Vite
+# Selva Vinayagar Industry Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website project for **Selva Vinayagar Industry**, built using modern web development tools for fast performance and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## React Compiler
+- **Frontend Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with [PostCSS](https://postcss.org/)
+- **Code Quality**: [ESLint](https://eslint.org/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Ensure you have **Node.js** (v18 or higher recommended) and **npm** installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mrakash05012007/Selva-Vinayagar-Industry.git](https://github.com/mrakash05012007/Selva-Vinayagar-Industry.git)
+   cd Selva-Vinayagar-Industry
