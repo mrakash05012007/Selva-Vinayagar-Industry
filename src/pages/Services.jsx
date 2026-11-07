@@ -3,21 +3,21 @@ import { Settings, Wrench as Tool, Columns, Home, Scissors, CornerUpRight, GitCo
 
 const Services = () => {
     const services = [
-        { id: 1, title: 'Structural Fabrication', desc: 'Heavy-duty steel structural fabrication for industrial sheds, factories, and warehouses.', icon: Columns, img: 'https://images.unsplash.com/photo-1541888002621-36ad60c38863?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 2, title: 'Erection Work', desc: 'Precision erection of pre-engineered and fabricated steel structures by expert professionals.', icon: Tool, img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 3, title: 'Rolling Shutters', desc: 'Motorised and gear-type rolling shutters with maximum durability and security.', icon: Settings, img: 'https://images.unsplash.com/photo-1621251842055-6b5c32938b81?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 4, title: 'Stainless Steel Works', desc: 'High-grade SS fabrication for railings, gates, and industrial applications.', icon: PenTool, img: 'https://images.unsplash.com/photo-1510006240217-17eb9c2c62c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 5, title: 'Pre-Engineered Structures', desc: 'Turnkey PEB solutions customized to meet specific industrial requirements.', icon: Home, img: 'https://images.unsplash.com/photo-1590439401918-68e1c6b5e022?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 6, title: 'Sheet Shearing & Folding', desc: 'Accurate SS/MS sheet cutting and precise folding works as per the design specifications.', icon: Scissors, img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 7, title: 'Tube Bending Works', desc: 'Square and round tube bending for various structural and decorative applications.', icon: CornerUpRight, img: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
-        { id: 8, title: 'Civil Construction', desc: 'Complete civil construction solutions seamlessly integrated with our engineering structures.', icon: GitCommit, img: 'https://images.unsplash.com/photo-1541888002621-36ad60c38863?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' },
+        { id: 1, title: 'Structural Fabrication', desc: 'Heavy-duty steel structural fabrication for industrial sheds, factories, and warehouses.', icon: Columns, img: '/images/structural-fabrication.jpg' },
+        { id: 2, title: 'Erection Work', desc: 'Precision erection of pre-engineered and fabricated steel structures by expert professionals.', icon: Tool, img: '/images/peb-structures.jpg' },
+        { id: 3, title: 'Rolling Shutters', desc: 'Motorised and gear-type rolling shutters with maximum durability and security.', icon: Settings, img: '/images/rolling-shutters.jpg' },
+        { id: 4, title: 'Stainless Steel Works', desc: 'High-grade SS fabrication for railings, gates, and industrial applications.', icon: PenTool, img: '/images/stainless-steel.jpg' },
+        { id: 5, title: 'Pre-Engineered Structures', desc: 'Turnkey PEB solutions customized to meet specific industrial requirements.', icon: Home, img: '/images/peb-structures.jpg' },
+        { id: 6, title: 'Sheet Shearing & Folding', desc: 'Accurate SS/MS sheet cutting and precise folding works as per the design specifications.', icon: Scissors, img: '/images/sheet-shearing.jpg' },
+        { id: 7, title: 'Tube Bending Works', desc: 'Square and round tube bending for various structural and decorative applications.', icon: CornerUpRight, img: '/images/tube-bending.jpg' },
+        { id: 8, title: 'Civil Construction', desc: 'Complete civil construction solutions seamlessly integrated with our engineering structures.', icon: GitCommit, img: '/images/civil-construction.jpg' },
     ];
 
     return (
         <div className="bg-gray-50 min-h-screen pb-20">
             {/* Header */}
             <section className="bg-secondary py-16 relative">
-                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}></div>
+                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('/images/peb-structures.jpg')" }}></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-heading font-black text-white uppercase tracking-tight mb-4">Our Services</h1>
                     <p className="text-primary font-bold uppercase tracking-widest text-sm">Industrial Fabrication & Engineering</p>

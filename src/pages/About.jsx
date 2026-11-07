@@ -7,7 +7,7 @@ const About = () => {
         <div>
             {/* Page Header */}
             <section className="bg-secondary py-20 relative">
-                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}></div>
+                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-4xl md:text-5xl font-heading font-black text-white uppercase tracking-tight mb-4">About Us</h1>
                     <p className="text-primary font-bold uppercase tracking-widest text-sm">Sri Selva Vinayagar Engineering Works</p>
@@ -40,8 +40,8 @@ const About = () => {
                             </p>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
-                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Construction Work" className="w-full h-64 md:h-80 object-cover rounded shadow-lg transition-transform hover:scale-105 duration-300" />
-                            <img src="https://images.unsplash.com/photo-1604085429712-16bb9ec8161f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Welding" className="w-full h-64 md:h-80 object-cover rounded shadow-lg mt-8 transition-transform hover:scale-105 duration-300" />
+                            <img src="/images/civil-construction.jpg" alt="Construction Work" className="w-full h-64 md:h-80 object-cover rounded shadow-lg transition-transform hover:scale-105 duration-300" />
+                            <img src="/images/welding.jpg" alt="Welding" className="w-full h-64 md:h-80 object-cover rounded shadow-lg mt-8 transition-transform hover:scale-105 duration-300" />
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ const About = () => {
 
             {/* Trust Banner */}
             <section className="bg-primary py-16 text-center text-white relative overflow-hidden">
-                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20 mix-blend-overlay" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1510006240217-17eb9c2c62c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}></div>
+                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20 mix-blend-overlay" style={{ backgroundImage: "url('/images/structural-fabrication.jpg')" }}></div>
                 <div className="max-w-4xl mx-auto px-4 relative z-10">
                     <h2 className="text-3xl md:text-4xl font-heading font-black uppercase mb-6 text-white tracking-wide">Experience You Can Trust</h2>
                     <p className="text-white/90 font-medium mb-8 text-lg md:text-xl">Partner with Sri Selva Vinayagar Engineering Works for your next fabrication or construction project.</p>

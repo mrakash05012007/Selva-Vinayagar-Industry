@@ -9,7 +9,7 @@ const Home = () => {
             <section className="relative h-[90vh] min-h-[600px] flex items-center bg-secondary">
                 <div
                     className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-30"
-                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}
+                    style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
                 ></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/80 to-transparent z-0"></div>
 
@@ -106,7 +106,7 @@ const Home = () => {
                         <div className="relative">
                             <div className="hidden lg:block absolute -top-8 -left-8 w-full h-full border-4 border-primary rounded z-0"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1510006240217-17eb9c2c62c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                src="/images/welding.jpg"
                                 alt="Welding Works"
                                 className="relative z-10 w-full object-cover rounded shadow-2xl h-[400px] md:h-[500px]"
                             />

@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="bg-gray-50 min-h-screen">
             {/* Header */}
             <section className="bg-secondary py-16 relative">
-                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}></div>
+                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('/images/structural-fabrication.jpg')" }}></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-heading font-black text-white uppercase tracking-tight mb-4">Contact Us</h1>
                     <p className="text-primary font-bold uppercase tracking-widest text-sm">Get in touch for your engineering needs</p>

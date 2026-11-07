@@ -6,14 +6,14 @@ const Projects = () => {
     const categories = ['All', 'Structural', 'Rolling Shutters', 'Civil Works', 'Details & Bending'];
 
     const projects = [
-        { id: 1, title: 'Industrial Shed Erection', category: 'Structural', img: 'https://images.unsplash.com/photo-1541888002621-36ad60c38863?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 2, title: 'Commercial Rolling Shutters', category: 'Rolling Shutters', img: 'https://images.unsplash.com/photo-1621251842055-6b5c32938b81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 3, title: 'Warehouse Construction', category: 'Civil Works', img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 4, title: 'SS Railing Installation', category: 'Details & Bending', img: 'https://images.unsplash.com/photo-1510006240217-17eb9c2c62c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 5, title: 'Pre-Engineered Building', category: 'Structural', img: 'https://images.unsplash.com/photo-1590439401918-68e1c6b5e022?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 6, title: 'Motorised Gear Shutters', category: 'Rolling Shutters', img: 'https://images.unsplash.com/photo-1621251842055-6b5c32938b81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 7, title: 'Custom Tube Bending', category: 'Details & Bending', img: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { id: 8, title: 'Foundation & Footing', category: 'Civil Works', img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
+        { id: 1, title: 'Industrial Shed Erection', category: 'Structural', img: '/images/structural-fabrication.jpg' },
+        { id: 2, title: 'Commercial Rolling Shutters', category: 'Rolling Shutters', img: '/images/rolling-shutters.jpg' },
+        { id: 3, title: 'Warehouse Construction', category: 'Civil Works', img: '/images/peb-structures.jpg' },
+        { id: 4, title: 'SS Railing Installation', category: 'Details & Bending', img: '/images/stainless-steel.jpg' },
+        { id: 5, title: 'Pre-Engineered Building', category: 'Structural', img: '/images/peb-structures.jpg' },
+        { id: 6, title: 'Motorised Gear Shutters', category: 'Rolling Shutters', img: '/images/rolling-shutters.jpg' },
+        { id: 7, title: 'Custom Tube Bending', category: 'Details & Bending', img: '/images/tube-bending.jpg' },
+        { id: 8, title: 'Foundation & Footing', category: 'Civil Works', img: '/images/civil-construction.jpg' },
     ];
 
     const filteredProjects = filter === 'All' ? projects : projects.filter(p => p.category === filter);
@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="bg-white min-h-screen">
             {/* Header */}
             <section className="bg-secondary py-16 relative">
-                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1510006240217-17eb9c2c62c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}></div>
+                <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: "url('/images/structural-fabrication.jpg')" }}></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-heading font-black text-white uppercase tracking-tight mb-4">Our Projects</h1>
                     <p className="text-primary font-bold uppercase tracking-widest text-sm">Gallery of Quality Workmanship</p>
